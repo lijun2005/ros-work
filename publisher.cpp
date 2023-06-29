@@ -39,5 +39,7 @@ int main(int argc,char **argv)
         ros::spinOnce();
         loop_rate.sleep();
     }
+    //sensor_msgs::ImagePtr msg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", image).toImageMsg();
     return 0;
 }
+
