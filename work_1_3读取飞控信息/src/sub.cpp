@@ -1,5 +1,4 @@
 #include <iostream>
-#include <random>
 #include <vector>
 #include <ros/ros.h>
 #include <mavros_msgs/RCIn.h>
@@ -7,7 +6,6 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/core/core.hpp>
 #include <cv_bridge/cv_bridge.h>
-#include <thread>
 
 int transport (float m);
 void pic_hist( std::vector<float> arry);
