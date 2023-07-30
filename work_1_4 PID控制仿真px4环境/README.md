@@ -13,7 +13,12 @@
 简单来说就是通过mavros
 ### 无人机基本姿态知识介绍
 参考：[无人机姿态介绍](https://github.com/lijun1234567/ros-work/blob/work_1/work_1_2%20mavros%3APositionTarget%20%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
-
+大概内容如下：
+- 坐标系，位置，速度，加速度
+- 三个角度：roll(横滚角）翻滚，pitch(俯仰角）点头，yaw(航向角）摇头
+  - 绕向前的轴旋转就是横滚角；
+  - 绕向右的轴旋转就是俯仰角；
+  - 绕向上的轴旋转就是航向角。
 
 ## 代码实现
 - 手动实现无人机解锁并进入offboard模式
