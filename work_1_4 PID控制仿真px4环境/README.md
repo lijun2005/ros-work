@@ -8,24 +8,9 @@
 
 ## 基础知识
 ### px4与仿真环境比如gazebo之间如何进行通信
+在ROS和C++中，可以使用MavROS（Mavlink for ROS）来实现PX4与Gazebo仿真环境之间的通信。MavROS提供了一个ROS接口，用于将PX4飞控系统与ROS进行集成，并允许在ROS中发布和接收来自PX4的消息。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+简单来说就是通过mavros
 
 ## 代码实现
 - 手动实现无人机解锁并进入offboard模式
