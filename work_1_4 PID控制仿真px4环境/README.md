@@ -12,7 +12,9 @@
 
 简单来说就是通过mavros
 ### 无人机基本姿态知识介绍
-[https://github.com/lijun1234567/ros-work/blob/work_1/work_1_2%20mavros%3APositionTarget%20%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86](https://github.com/lijun1234567/ros-work/blob/work_1/work_1_2%20mavros%3APositionTarget%20%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
+参考：[无人机姿态介绍](https://github.com/lijun1234567/ros-work/blob/work_1/work_1_2%20mavros%3APositionTarget%20%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
+
+
 ## 代码实现
 - 手动实现无人机解锁并进入offboard模式
   - 官方文档:[https://docs.px4.io/main/en/ros/mavros_offboard_cpp.html](https://docs.px4.io/main/en/ros/mavros_offboard_cpp.html)
