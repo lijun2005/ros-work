@@ -172,6 +172,6 @@ int main(int argc, char **argv)
   - 实现
   ```c++
   ```
-—使用PID控制做圆周运动
+- 使用PID控制做圆周运动
 ```c++
 ```
