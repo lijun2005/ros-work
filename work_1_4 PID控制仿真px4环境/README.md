@@ -11,6 +11,8 @@
 在ROS和C++中，可以使用MavROS（Mavlink for ROS）来实现PX4与Gazebo仿真环境之间的通信。MavROS提供了一个ROS接口，用于将PX4飞控系统与ROS进行集成，并允许在ROS中发布和接收来自PX4的消息。
 
 简单来说就是通过mavros
+### 安装PX4 
+[https://blog.csdn.net/HuangChen666/article/details/128754106?ops_request_misc=&request_id=8f8ef7a829fa4cc5938d19470301baad&biz_id=&utm_medium=distribute.pc_search_result.none-task-blog-2~all~koosearch~default-2-128754106-null-null.142^v91^koosearch_v1,239^v12^control2&utm_term=mavros%20px4%20qgroundcontrol%20%E5%AE%89%E8%A3%85%E4%BF%9D%E5%A7%86&spm=1018.2226.3001.4187](https://blog.csdn.net/HuangChen666/article/details/128754106?ops_request_misc=&request_id=8f8ef7a829fa4cc5938d19470301baad&biz_id=&utm_medium=distribute.pc_search_result.none-task-blog-2~all~koosearch~default-2-128754106-null-null.142^v91^koosearch_v1,239^v12^control2&utm_term=mavros%20px4%20qgroundcontrol%20%E5%AE%89%E8%A3%85%E4%BF%9D%E5%A7%86&spm=1018.2226.3001.4187)
 ### 无人机姿态介绍
 [基础知识](https://github.com/lijun1234567/ros-work/blob/work_1_1/work_1_2%20mavros%3APositionTarget%20%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 ### PID控制算法
