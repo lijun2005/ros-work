@@ -12,7 +12,7 @@
 
 简单来说就是通过mavros
 ### 无人机姿态介绍
-[]()
+[基础知识](https://github.com/lijun1234567/ros-work/blob/work_1_1/work_1_2%20mavros%3APositionTarget%20%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 ### PID控制算法
 参考[https://zhuanlan.zhihu.com/p/39573490](https://zhuanlan.zhihu.com/p/39573490)
 
