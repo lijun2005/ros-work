@@ -123,3 +123,6 @@ int main(int argc, char **argv)
 }
 
 ```
+- 使用PID对飞机的横滚角和俯仰角进行控制
+```c++
+```
