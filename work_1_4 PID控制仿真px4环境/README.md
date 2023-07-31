@@ -24,6 +24,7 @@
 ### PID控制 
 1. [https://blog.csdn.net/Nirvana_Tai/article/details/105409311?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169080930016800186564344%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169080930016800186564344&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-105409311-null-null.142^v91^koosearch_v1,239^v12^control2&utm_term=PID%E6%8E%A7%E5%88%B6C%E8%AF%AD%E8%A8%80&spm=1018.2226.3001.4187](https://blog.csdn.net/Nirvana_Tai/article/details/105409311?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169080930016800186564344%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169080930016800186564344&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-105409311-null-null.142^v91^koosearch_v1,239^v12^control2&utm_term=PID%E6%8E%A7%E5%88%B6C%E8%AF%AD%E8%A8%80&spm=1018.2226.3001.4187)
 2. [https://www.bilibili.com/video/BV1B54y1V7hp/?spm_id_from=333.337.search-card.all.click&vd_source=797201f7e4343269e3696caf52edcbaa](https://www.bilibili.com/video/BV1B54y1V7hp/?spm_id_from=333.337.search-card.all.click&vd_source=797201f7e4343269e3696caf52edcbaa)
+3.[https://blog.csdn.net/weixin_43589885/article/details/117164393](https://blog.csdn.net/weixin_43589885/article/details/117164393)
 ## 代码实现
 - 手动实现无人机解锁并进入offboard模式
   - 官方文档:[https://docs.px4.io/main/en/ros/mavros_offboard_cpp.html](https://docs.px4.io/main/en/ros/mavros_offboard_cpp.html)
