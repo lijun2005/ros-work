@@ -164,9 +164,9 @@ int main(int argc, char **argv)
        ```c++
        current_yaw = atan2(2.0 * (pose.orientation.w * pose.orientation.z + pose.orientation.x * pose.orientation.y),
                     1.0 - 2.0 * (pose.orientation.y * pose.orientation.y + pose.orientation.z * pose.orientation.z));
-      current_pitch = asin(2.0 * (pose.orientation.w * pose.orientation.y - pose.orientation.z * pose.orientation.x));
-      current_roll = atan2(2.0 * (pose.orientation.w * pose.orientation.x + pose.orientation.y * pose.orientation.z),
-                     1.0 - 2.0 * (pose.orientation.x * pose.orientation.x + pose.orientation.y * pose.orientation.y));
+        current_pitch = asin(2.0 * (pose.orientation.w * pose.orientation.y - pose.orientation.z * pose.orientation.x));
+        current_roll = atan2(2.0 * (pose.orientation.w * pose.orientation.x + pose.orientation.y * pose.orientation.z),
+                       1.0 - 2.0 * (pose.orientation.x * pose.orientation.x + pose.orientation.y * pose.orientation.y));
 
        ```
 
