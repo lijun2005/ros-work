@@ -35,7 +35,7 @@ PID控制器的工作原理如下：
 可以利用高中生物所学的反馈调节的原理来解释，也可以用电路里面的放大电路里面的选取合适静态工作点的思想。
 
 视频推荐：
-
+[https://www.bilibili.com/video/BV1B54y1V7hp/?p=2&spm_id_from=pageDriver&vd_source=797201f7e4343269e3696caf52edcbaa](https://www.bilibili.com/video/BV1B54y1V7hp/?p=2&spm_id_from=pageDriver&vd_source=797201f7e4343269e3696caf52edcbaa)
 ## 代码实现
 - 手动实现无人机解锁并进入offboard模式
   - 官方文档:[https://docs.px4.io/main/en/ros/mavros_offboard_cpp.html](https://docs.px4.io/main/en/ros/mavros_offboard_cpp.html)
