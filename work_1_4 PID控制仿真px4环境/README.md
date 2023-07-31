@@ -131,9 +131,43 @@ int main(int argc, char **argv)
   - 四元数与欧拉角的相互转换
      - 使用tf库
        ```c++
+        #include <ros/ros.h>
+        #include <tf2/LinearMath/Quaternion.h>
+        #include <tf2/LinearMath/Matrix3x3.h>
+        
+        int main(int argc, char** argv) {
+            ros::init(argc, argv, "quaternion_euler_conversion");
+            ros::NodeHandle nh;
+        
+            // 示例：将欧拉角转换为四元数
+            double roll = 0.1;   // 横滚角，单位：弧度
+            double pitch = 0.2;  // 俯仰角，单位：弧度
+            double yaw = 0.3;    // 偏航角，单位：弧度
+        
+            tf2::Quaternion quat;
+            quat.setRPY(roll, pitch, yaw);
+        
+            ROS_INFO("Quaternion: x=%f, y=%f, z=%f, w=%f", quat.x(), quat.y(), quat.z(), quat.w());
+        
+            // 示例：将四元数转换为欧拉角
+            tf2::Matrix3x3 mat(quat);
+            double euler_roll, euler_pitch, euler_yaw;
+            mat.getRPY(euler_roll, euler_pitch, euler_yaw);
+        
+            ROS_INFO("Euler Angles: roll=%f, pitch=%f, yaw=%f", euler_roll, euler_pitch, euler_yaw);
+        
+            return 0;
+        }
+
        ```
      - 直接计算
        ```c++
+       current_yaw = atan2(2.0 * (pose.orientation.w * pose.orientation.z + pose.orientation.x * pose.orientation.y),
+                    1.0 - 2.0 * (pose.orientation.y * pose.orientation.y + pose.orientation.z * pose.orientation.z));
+      current_pitch = asin(2.0 * (pose.orientation.w * pose.orientation.y - pose.orientation.z * pose.orientation.x));
+      current_roll = atan2(2.0 * (pose.orientation.w * pose.orientation.x + pose.orientation.y * pose.orientation.z),
+                     1.0 - 2.0 * (pose.orientation.x * pose.orientation.x + pose.orientation.y * pose.orientation.y));
+
        ```
 
 ```c++
