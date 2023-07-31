@@ -11,6 +11,8 @@
 在ROS和C++中，可以使用MavROS（Mavlink for ROS）来实现PX4与Gazebo仿真环境之间的通信。MavROS提供了一个ROS接口，用于将PX4飞控系统与ROS进行集成，并允许在ROS中发布和接收来自PX4的消息。
 
 简单来说就是通过mavros
+### 无人机姿态介绍
+[]()
 ### PID控制算法
 参考[https://zhuanlan.zhihu.com/p/39573490](https://zhuanlan.zhihu.com/p/39573490)
 
