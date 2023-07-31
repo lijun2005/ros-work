@@ -8,7 +8,7 @@
 
 ## 基础知识
 ### 安装px4
-
+[https://blog.csdn.net/HuangChen666/article/details/128754106?ops_request_misc=&request_id=52710465aa6541a78a83172f2ad7ee39&biz_id=&utm_medium=distribute.pc_search_result.none-task-blog-2~all~koosearch~default-1-128754106-null-null.142^v91^koosearch_v1,239^v12^control2&utm_term=mavros%20px4%20qgroundcontrol%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187](https://blog.csdn.net/HuangChen666/article/details/128754106?ops_request_misc=&request_id=52710465aa6541a78a83172f2ad7ee39&biz_id=&utm_medium=distribute.pc_search_result.none-task-blog-2~all~koosearch~default-1-128754106-null-null.142^v91^koosearch_v1,239^v12^control2&utm_term=mavros%20px4%20qgroundcontrol%20%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187)
 ### px4与仿真环境比如gazebo之间如何进行通信
 在ROS和C++中，可以使用MavROS（Mavlink for ROS）来实现PX4与Gazebo仿真环境之间的通信。MavROS提供了一个ROS接口，用于将PX4飞控系统与ROS进行集成，并允许在ROS中发布和接收来自PX4的消息。
 
