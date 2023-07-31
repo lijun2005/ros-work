@@ -169,6 +169,9 @@ int main(int argc, char **argv)
                        1.0 - 2.0 * (pose.orientation.x * pose.orientation.x + pose.orientation.y * pose.orientation.y));
 
        ```
-
+  - 实现
+  ```c++
+  ```
+—使用PID控制做圆周运动
 ```c++
 ```
